@@ -24,7 +24,7 @@ Then rebuild the docker image through the provided script:
 ```sh
 ./docker_build_image.sh <${image_name}>
 ```
-:warning: ***Warning***: Be sure that this is the only export path for IGN GAZEBO.
+:warning: ***Warning*** Be sure that this is the only export path for IGN GAZEBO.
 
 ## :rocket: Bring up Armando
 Once the image is updated, download this repository in the image folder:
@@ -57,7 +57,7 @@ ros2 launch armando_gazebo armando_world.launch.py ctrl:=0
 ```sh
 ros2 launch armando_gazebo armando_world.launch.py ctrl:=1
 ```
-:mag: ***Note***: by default is set on the position controller.
+:mag: ***Note*** by default is set on the position controller.
 
 ### :white_check_mark: Armando Controller
 Once the robot is in the Gazebo world, in an other terminal run the `armando_controller_node` by specifying the controller type and setting the argument as follows:
@@ -69,4 +69,4 @@ ros2 run armando_controller armando_controller_node 0
 ```sh
 ros2 run armando_controller armando_controller_node 1
 ```
-:mag: ***Note***: also in this case the default item is the position controller.
+:mag: ***Note*** also in this case the default item is the position controller.
