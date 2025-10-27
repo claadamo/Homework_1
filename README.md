@@ -59,6 +59,12 @@ ros2 launch armando_gazebo armando_world.launch.py ctrl:=1
 ```
 :mag: ***Note*** by default is set on the position controller.
 
+#### :fotocamera: Armando Camera
+Open an other terminal and write the following command to see what the camera shows:
+```sh
+ros2 run rqt_image_view rqt_image_view
+```
+
 ### :white_check_mark: Armando Controller
 Once the robot is in the Gazebo world, in an other terminal run the `armando_controller_node` by specifying the controller type and setting the argument as follows:
 * **position controller**:
