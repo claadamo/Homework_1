@@ -4,7 +4,7 @@ Starting from the provided base package **armando_description**, the robot descr
  
 ## :hammer_and_wrench: Dockerfile modification
 This package depends on the following Ros2 Humble packages: ros-humble-ros-ign-bridge, ros-humble-ros-gz, ros-humble-controller-manager, ros-humble-ros2-control, ros-humble-ros2-controllers, and ros-humble-ign-ros2-control, which are already included in the provided Dockerfile. Additional dependencies such as ros-humble-urdf-tutorial, ros-humble-xacro and ros-humble-ros-gz-sim have been manually added.
-Therefore, open the Dockerfile and add the following line:
+Therefore, open the Dockerfile and add the following lines:
 ```sh
 RUN echo "export IGN_GAZEBO_RESOURCE_PATH=$IGN_GAZEBO_RESOURCE_PATH:/home/user/ros2_ws/src/armando_gazebo/models" >> ${HOME}/.bashrc
 
