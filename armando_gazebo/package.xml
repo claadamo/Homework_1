@@ -3,7 +3,7 @@
   <name>armando_gazebo</name>
   <version>0.0.1</version>
   <description>Gazebo bringup for Armando</description>
-  <maintainer email="emanuele.fusco2@studenti.unina.it">EmanueleFusco</maintainer>
+  <maintainer email="cla.adamo@studenti.unina.it">ClaudiaAdamo</maintainer>
   <license>BSD-3-Clause</license>
 
   <!-- Build system -->
