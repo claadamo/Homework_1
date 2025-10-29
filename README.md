@@ -69,10 +69,10 @@ ros2 run rqt_image_view rqt_image_view
 Once the robot is in the Gazebo world, in an other terminal run the `armando_controller_node` by specifying the controller type and setting the argument as follows:
 * **position controller**:
 ```sh
-ros2 run armando_controller armando_controller_node 0
+ros2 run armando_controller arm_controller_node 0
 ```
 * **trajectory controller**:
 ```sh
-ros2 run armando_controller armando_controller_node 1
+ros2 run armando_controller arm_controller_node 1
 ```
 :mag: ***Note*** also in this case the default item is the position controller.
