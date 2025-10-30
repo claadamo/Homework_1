@@ -32,7 +32,7 @@ Once the image is updated, download this repository in the image folder:
 git clone https://github.com/claadamo/Homework_1.git
 ```
 ### :hammer: Build the packages
-Enter in ros2 workspace and, before building the packages, it is necessary to extract the individual packages contained inside the Homework_1 folder. Then build the following packages using `colcon build` and selecting the required packages:
+Enter in ros2 workspace and, before building the packages, extract the individual packages from the Homework_1 folder. Then, build the desired packages using `colcon build` and selecting the required packages:
 ```sh
 colcon build --packages-select armando_description armando_gazebo armando_controller
 ```
